@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.osamendi.devhouse">
+
+    <uses-sdk
+        android:minSdkVersion="35"
+        android:targetSdkVersion="35"/>
+
+    <application
+        android:label="OsamendiDevelopmentHouse"
+        android:theme="@style/Theme.Material3.Dark">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
